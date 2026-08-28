@@ -78,19 +78,17 @@ class SchoolApp(App):
 
                 data = json.load(file)
 
+            records = data.get("students", data)
+
             self.students = {
                 int(key): value
-                for key, value in
-                data.get(
-                    "students",
-                    {}
-                ).items()
+                for key, value in records.items()
             }
 
-            self.next_id = data.get(
-                "next_id",
-                1
-            )
+            self.next_id = max(
+                self.students,
+                default=0
+            ) + 1
 
         except Exception:
 
@@ -98,11 +96,6 @@ class SchoolApp(App):
             self.next_id = 1
 
     def save_data(self):
-
-        data = {
-            "next_id": self.next_id,
-            "students": self.students
-        }
 
         try:
 
@@ -113,7 +106,7 @@ class SchoolApp(App):
             ) as file:
 
                 json.dump(
-                    data,
+                    self.students,
                     file,
                     indent=4
                 )
