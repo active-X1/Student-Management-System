@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Campus Desk banner"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060b1d"/><stop offset="0.5" stop-color="#0f1a47"/><stop offset="1" stop-color="#08293b"/></linearGradient>
+<linearGradient id="title" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#93c5fd"/><stop offset="0.55" stop-color="#a5b4fc"/><stop offset="1" stop-color="#6ee7b7"/></linearGradient>
+<radialGradient id="o1"><stop offset="0" stop-color="#2563eb" stop-opacity="0.5"/><stop offset="1" stop-color="#2563eb" stop-opacity="0"/></radialGradient>
+<radialGradient id="o2"><stop offset="0" stop-color="#10b981" stop-opacity="0.42"/><stop offset="1" stop-color="#10b981" stop-opacity="0"/></radialGradient>
+<radialGradient id="o3"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.38"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient></defs><rect width="1200" height="380" rx="28" fill="url(#bg)"/><circle cx="120.0" cy="38.0" r="285.0" fill="url(#o1)"/><circle cx="1140.0" cy="361.0" r="304.0" fill="url(#o2)"/><circle cx="660.0" cy="418.00000000000006" r="209.00000000000003" fill="url(#o3)"/><rect x="0.5" y="0.5" width="1199" height="379" rx="28" fill="none" stroke="#fff" stroke-opacity="0.1"/><svg x="930" y="70" width="210" height="210" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="lg-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/><stop offset="0.55" stop-color="#6366f1"/><stop offset="1" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="lg-shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="lg-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <rect width="256" height="256" rx="58" fill="url(#lg-bg)"/>
+  <path d="M0 128V58a58 58 0 0 1 58-58H198a58 58 0 0 1 58 58V128Z" fill="url(#lg-shine)"/>
+  <path d="M74 134v34c0 20 108 20 108 0v-34L128 160z" fill="#0b1433" opacity="0.28" filter="url(#lg-soft)" transform="translate(0 6)"/>
+  <path d="M74 132v34c0 20 108 20 108 0v-34L128 158z" fill="#e0e7ff"/>
+  <path d="M128 66 224 108 128 150 32 108z" fill="#ffffff"/>
+  <path d="M128 66 224 108 128 150" fill="none" stroke="#c7d2fe" stroke-width="2" stroke-linejoin="round" opacity="0.6"/>
+  <path d="M208 113v50" stroke="#fbbf24" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="208" cy="170" r="10" fill="#fbbf24"/>
+  <circle cx="128" cy="108" r="6" fill="#6366f1"/>
+</svg><text x="70" y="170" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="88" font-weight="800" fill="url(#title)" text-anchor="start" letter-spacing="-2">Campus Desk</text><text x="74" y="222" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="400" fill="#9aa8de" text-anchor="start" >Student management for desktop, mobile, web and terminal</text><rect x="74" y="256" width="119" height="38" rx="19" fill="#60a5fa" fill-opacity="0.14" stroke="#60a5fa" stroke-opacity="0.6"/><text x="133.5" y="281" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#60a5fa" text-anchor="middle" >tkinter</text><rect x="205" y="256" width="80" height="38" rx="19" fill="#34d399" fill-opacity="0.14" stroke="#34d399" stroke-opacity="0.6"/><text x="245.0" y="281" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#34d399" text-anchor="middle" >Kivy</text><rect x="297" y="256" width="119" height="38" rx="19" fill="#fbbf24" fill-opacity="0.14" stroke="#fbbf24" stroke-opacity="0.6"/><text x="356.5" y="281" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fbbf24" text-anchor="middle" >NiceGUI</text><rect x="428" y="256" width="106" height="38" rx="19" fill="#f472b6" fill-opacity="0.14" stroke="#f472b6" stroke-opacity="0.6"/><text x="481.0" y="281" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#f472b6" text-anchor="middle" >SQLite</text></svg>

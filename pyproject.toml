@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "campus-desk"
+dynamic = ["version"]
+description = "A student management system with desktop (tkinter), mobile (Kivy), web (NiceGUI) and terminal interfaces."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Cyrus Akacha Cyprian" }]
+keywords = ["student-management", "tkinter", "kivy", "nicegui", "sqlite", "python"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Education",
+]
+dependencies = []                      # the terminal and desktop interfaces need nothing extra
+
+[project.optional-dependencies]
+web = ["nicegui>=2.0"]
+mobile = ["kivy>=2.3"]
+all = ["nicegui>=2.0", "kivy>=2.3"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+campus-desk = "campusdesk.launcher:main"
+
+[tool.setuptools.dynamic]
+version = { attr = "campusdesk.__version__" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+campusdesk = ["assets/*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

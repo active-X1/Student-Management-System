@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Campus Desk">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/><stop offset="0.55" stop-color="#6366f1"/><stop offset="1" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <rect width="256" height="256" rx="58" fill="url(#bg)"/>
+  <path d="M0 128V58a58 58 0 0 1 58-58H198a58 58 0 0 1 58 58V128Z" fill="url(#shine)"/>
+  <path d="M74 134v34c0 20 108 20 108 0v-34L128 160z" fill="#0b1433" opacity="0.28" filter="url(#soft)" transform="translate(0 6)"/>
+  <path d="M74 132v34c0 20 108 20 108 0v-34L128 158z" fill="#e0e7ff"/>
+  <path d="M128 66 224 108 128 150 32 108z" fill="#ffffff"/>
+  <path d="M128 66 224 108 128 150" fill="none" stroke="#c7d2fe" stroke-width="2" stroke-linejoin="round" opacity="0.6"/>
+  <path d="M208 113v50" stroke="#fbbf24" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="208" cy="170" r="10" fill="#fbbf24"/>
+  <circle cx="128" cy="108" r="6" fill="#6366f1"/>
+</svg>

@@ -1,0 +1,3 @@
+# The terminal and desktop (tkinter) interfaces need nothing beyond Python itself.
+nicegui>=2.0    # web interface
+kivy>=2.3       # mobile interface (also runs on a desktop as a phone-sized preview)
